@@ -21,7 +21,8 @@ int q,n;
 cin>>q;
 while(q--){
 cin>>n;
-cout<<"bit set of number\t"<<n<<"\t";
+//cout<<"bit set of number\t"<<n<<"\t";
 cout<<bitsets(n);
 }
+  return 0;
 }

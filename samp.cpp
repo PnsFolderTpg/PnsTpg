@@ -17,11 +17,11 @@ int main(){
 		cin>>s;
 		int fl=1;
 		stack<char>st;
-		cout<<s.length()<<endl;
+		//cout<<s.length()<<endl;
 		for(int ch=0;ch<s.length();ch++) //for(auto i:s)
 		{
 			i=s[ch];
-			cout<<i<<endl;
+			//cout<<i<<endl;
 			if(i=='[' || i=='{' || i=='(')
 			{			
 				st.push(i);
